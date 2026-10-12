@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/*
+data/processed/*
+data/finetune/*
+chroma_db/*
+models/*
+logs/*
+!**/.gitkeep
+dataset/*.pdf
