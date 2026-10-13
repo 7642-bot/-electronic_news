@@ -13,3 +13,5 @@ if __name__ == "__main__":
     if pages:
         chunks = chunk_documents(pages)
         index_dictionary_chunks(chunks)
+
+## This is the main entry point for indexing news articles and dictionary PDFs. It first runs the `run_indexing()` function to index news articles, and then it loads dictionary PDFs from the specified dataset path, chunks them into smaller pieces, and indexes those chunks using the `index_dictionary_chunks()` function.
