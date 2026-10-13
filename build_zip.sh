@@ -18,4 +18,6 @@ zip -r "${PROJECT_NAME}.zip" . \
   -x "data/finetune/*" \
   -x "*.zip"
 
-echo "✓ Created ${PROJECT_NAME}.zip"
+echo "Created ${PROJECT_NAME}.zip"
+
+## This script creates a zip archive of the "electronics-intel" project, excluding certain directories and files such as virtual environments, caches, generated files, and sensitive data. The resulting zip file can be used for distribution or deployment.
