@@ -21,7 +21,7 @@ The result: summaries that cite real sources, use correct electronics terminolog
 
 ---
 
-##  What Actually Works 
+<!-- ##  What Actually Works 
 
 
 | RSS ingestion             | ✅ Working | 8 feeds configured, 4 actively returning data |
@@ -41,7 +41,7 @@ The result: summaries that cite real sources, use correct electronics terminolog
 
 **Overall completion: ~45%** — functional MVP, not production-ready.
 
----
+--- -->
 
 ## Architecture
 
@@ -512,7 +512,7 @@ Also strengthen the prompt with "Do NOT add facts from your general knowledge."
 
 --- -->
 
-## Technology Stack
+<!-- ## Technology Stack
 
 | Language      | Python 3.10+ |
 | LLM           | Groq (`openai/gpt-oss-120b`) |
@@ -526,8 +526,8 @@ Also strengthen the prompt with "Do NOT add facts from your general knowledge."
 | Scheduling    | APScheduler |
 | Config        | python-dotenv |
 
----
-
+--- -->
+<!-- 
 ## Performance Notes
 
 | Ingestion (8 feeds)         | 10–30 s | Network-bound |
@@ -537,7 +537,7 @@ Also strengthen the prompt with "Do NOT add facts from your general knowledge."
 | LLM summary (Groq) | 3–15 s | Depends on output length |
 | Full RAG pipeline | 5–20 s | End-to-end |
 
----
+--- -->
 
 ## Contributing
 
@@ -550,7 +550,7 @@ This is a personal research project. If you fork it:
 
 ---
 
-## ⚖️ Legal & Ethical Notes
+##  Legal & Ethical Notes
 
 - **RSS feeds** are generally safe to consume for personal use
 - **APIs** (GNews, DIGITIMES, NewsAPI) have terms of service — respect rate limits
@@ -558,15 +558,8 @@ This is a personal research project. If you fork it:
 - **Dictionary PDFs** — ensure you have the right to use them; copyright applies
 - **Groq API** — free tier has rate limits; upgrade for production use
 
----
 
-## 📄 License
-
-MIT (or your preferred license) — add a `LICENSE` file to declare.
-
----
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Groq](https://groq.com) for fast LLM inference
 - [Sentence-Transformers](https://www.sbert.net) for the embedding model
@@ -575,8 +568,6 @@ MIT (or your preferred license) — add a `LICENSE` file to declare.
 - [Streamlit](https://streamlit.io) for the demo UI
 
 ---
-
-**Built with** ⚡ **by an Electronics/Communication Engineer, for Electronics/Communication Engineers.**
 
 <!-- # Electronics Technology Intelligence System
 
