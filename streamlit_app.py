@@ -14,7 +14,7 @@ import numpy as np
 
 st.set_page_config(
     page_title="Electronics Intelligence",
-    page_icon="⚡",
+    page_icon="🤴",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -39,7 +39,7 @@ def load_embedder():
 
 #  Sidebar
 with st.sidebar:
-    st.title("⚡ Electronics Intel")
+    st.title("Electronics Intel")
     st.caption("RAG-powered technology intelligence")
 
     st.divider()
@@ -78,7 +78,7 @@ st.caption("Ask a technical question. The RAG pipeline retrieves from your dicti
            "and news corpus, then generates a grounded summary.")
 
 tab_query, tab_explore, tab_bandit, tab_feeds = st.tabs(
-    ["🔍 Query", " Explore Corpus", " Bandit Demo", " Feeds"]
+    [" Query", " Explore Corpus", " Bandit Demo", " Feeds"]
 )
 
 #TAB 1: Query 
