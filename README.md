@@ -468,7 +468,7 @@ Also strengthen the prompt with "Do NOT add facts from your general knowledge."
 
 ---
 
-##  Roadmap
+<!-- ##  Roadmap
 
 ### Phase 1 — Quality Guardrails (Week 1)
 
@@ -510,7 +510,7 @@ Also strengthen the prompt with "Do NOT add facts from your general knowledge."
 - [ ] Redis/Kafka for producer/worker separation
 - [ ] Local LLM via Ollama for bulk summarization
 
----
+--- -->
 
 ## Technology Stack
 
